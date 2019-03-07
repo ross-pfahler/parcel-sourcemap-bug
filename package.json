@@ -1,0 +1,29 @@
+{
+  "name": "parcel-sourcemap-bug",
+  "version": "1.0.0",
+  "description": "Demo for Parcel sourcemap bug",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.js -o index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ross-pfahler/parcel-sourcemap-bug.git"
+  },
+  "keywords": [
+    "Parcel",
+    "sourcemaps"
+  ],
+  "author": "Ross Pfahler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ross-pfahler/parcel-sourcemap-bug/issues"
+  },
+  "homepage": "https://github.com/ross-pfahler/parcel-sourcemap-bug#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-range": "^3.1.1",
+    "parcel-bundler": "^1.12.0"
+  }
+}
